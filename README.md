@@ -1,2 +1,18 @@
-# vision_lanaguage_model_clip
-Implementation and experiments with CLIP-based vision-language models.
+# Vision Language Model - CLIP
+
+This repository contains a basic implementation and experiments with a Vision-Language Model based on **CLIP (Contrastive Language–Image Pretraining)**.  
+The code is provided in Jupyter notebooks and can be run directly on **Google Colab** for easy experimentation.
+
+## Description
+
+CLIP is a model developed by OpenAI that learns visual concepts from natural language supervision.  
+In this project, we explore its capabilities for connecting images and text through contrastive learning.  
+This repo is meant as a starting point for hands-on practice with vision-language models.
+
+## Getting Started
+
+1. Clone this repository or open the notebook directly in [Google Colab](https://colab.research.google.com/).
+2. Install the required dependencies inside Colab:
+   ```bash
+   pip install torch torchvision ftfy regex tqdm opencv-python
+   pip install git+https://github.com/openai/CLIP.git
