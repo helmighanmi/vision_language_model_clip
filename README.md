@@ -16,3 +16,8 @@ This repo is meant as a starting point for hands-on practice with vision-languag
    ```bash
    pip install torch torchvision ftfy regex tqdm opencv-python
    pip install git+https://github.com/openai/CLIP.git
+
+## Copyright (C) 
+OpenCV-University
+2000-2025, OpenCV.org
+All rights reserved.
